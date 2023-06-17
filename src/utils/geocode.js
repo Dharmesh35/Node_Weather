@@ -26,6 +26,5 @@ const geocode = async (address) => {
   } catch (error) {
     console.log(error);
   }
-};
-
+}
 module.exports = geocode;
